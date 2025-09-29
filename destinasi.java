@@ -35,6 +35,5 @@ public abstract class destinasi {
         this.hargaAnak = hargaAnak;
     }
 
-    // Abstract method → dioverride oleh subclass
     public abstract String getKategori();
 }
