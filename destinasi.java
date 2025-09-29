@@ -1,3 +1,4 @@
+package model;
 
 public abstract class destinasi {
     protected String nama;
