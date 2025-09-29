@@ -1,5 +1,7 @@
+package service;
 
 import java.util.*;
+import model.*;
 
 public class service {
     private List<destinasi> daftarDestinasi = new ArrayList<>();
