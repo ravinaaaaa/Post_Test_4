@@ -42,23 +42,23 @@ public String getNama() {
         return nama;
     }
 
-    public int getHargaDewasa() {
+public int getHargaDewasa() {
         return hargaDewasa;
     }
 
-    public int getHargaAnak() {
+public int getHargaAnak() {
         return hargaAnak;
     }
 
-    public void setNama(String nama) {
+public void setNama(String nama) {
         this.nama = nama;
     }
 
-    public void setHargaDewasa(int hargaDewasa) {
+public void setHargaDewasa(int hargaDewasa) {
         this.hargaDewasa = hargaDewasa;
     }
 
-    public void setHargaAnak(int hargaAnak) {
+public void setHargaAnak(int hargaAnak) {
         this.hargaAnak = hargaAnak;
     }
 ```
@@ -77,6 +77,7 @@ setiap class turunan dari Destinasi harus punya cara sendiri untuk mengembalikan
 
 #
 <h2> 2. service.java</h2>
+
 ```java
 package service;
 
@@ -371,3 +372,43 @@ constuctor digunakan untuk membuat objek wisataBudaya baru.
 }
 ```
 method ini diapaki untuk menandai kategori destinasi yaitu wisata budaya.
+
+#
+<h2>Output</h2>
+
+---
+<img width="261" height="126" alt="Tangkapan Layar 2025-09-29 pukul 20 11 51" src="https://github.com/user-attachments/assets/e770ed56-c3c0-4243-99f2-2d6d07649cff" />
+
+gambar diatas adalah ditampilkan pilihan Menu Utama.
+
+---
+<img width="532" height="353" alt="Tangkapan Layar 2025-09-29 pukul 20 11 57" src="https://github.com/user-attachments/assets/38021eea-8f88-4848-994c-364d504a59a6" />
+
+gambar diatas adalah menu untuk menampilkan seluruh daftar destinasi wisata.
+
+---
+<img width="345" height="235" alt="Tangkapan Layar 2025-09-29 pukul 20 12 03" src="https://github.com/user-attachments/assets/11b371e9-35d2-42ce-9976-0125ab250ad4" />
+
+gambar diatas adalah menu untuk tambah destinasi wisata. pengguna memasukan nama destinasi, tiket dewasa dan anak yang baru.
+
+---
+<img width="514" height="452" alt="Tangkapan Layar 2025-09-29 pukul 20 12 11" src="https://github.com/user-attachments/assets/d368ba88-65ca-4b97-a06e-13e49f3ac850" />
+
+gambar diatas adalah menu untuk ubah destinasi wisata. pengguna memilih nomor destinasi yang mau di ubah, lalu pengguna memasukan nama dan harga baru.
+
+---
+<img width="479" height="251" alt="Tangkapan Layar 2025-09-29 pukul 20 12 21" src="https://github.com/user-attachments/assets/7787043e-28ec-4492-b030-64beb49a8a06" />
+
+gambar diatas adalah menu untuk hapus destinasi wisata. pengguna memilih nomor destinasi yang mau dihapus.
+
+---
+<img width="519" height="396" alt="Tangkapan Layar 2025-09-29 pukul 20 12 27" src="https://github.com/user-attachments/assets/309e5daf-96d0-4ecc-a317-0e3041094420" />
+
+gambar diatas adalah menu untuk cari destinasi wisata sesuai kategori, semisal cari destinasi wisata Pantai, tinggal ketik saja Pantai maka akan muncul daftar destinasi wisata yang telah terdata.
+
+---
+<img width="241" height="161" alt="Tangkapan Layar 2025-09-29 pukul 20 12 32" src="https://github.com/user-attachments/assets/814787ec-7bad-47ba-9b81-a32ff02191ec" />
+
+gambar diatas adalah menu untuk keluar dari program.
+
+---
